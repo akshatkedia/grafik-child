@@ -6,6 +6,7 @@
  URI: http://demo.select-themes.com
  Version: 1.0.0
  Template: grafik
+ GitHub Theme URI: akshatkedia/grafik-child
 */
 @import url("../grafik/style.css");
 
@@ -144,11 +145,11 @@ h2 {
 	.page-get-to-know-us #team .wpb_column {
 		margin: 0;
 		width: 50%;
-	}	
+	}
 	.page-get-to-know-us #team .qodef-team-image {
 		float: left;
 		width: 50%;
-	}	
+	}
 	.page-get-to-know-us #team .qodef-team-name,
 	.page-get-to-know-us #team .q_team_position {
 		float: right;
