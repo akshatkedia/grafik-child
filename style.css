@@ -180,9 +180,6 @@ h2 {
 	font-size: 14px;
 	margin-top: 5px;
 }
-.qodef-vertical-align-containers .qodef-position-center:before, .qodef-vertical-align-containers .qodef-position-left:before, .qodef-vertical-align-containers .qodef-position-right:before {
-	display: none;
-}
 .qodef-mobile-header .qodef-mobile-logo-wrapper img {
 	margin-left: 15px;
 }
