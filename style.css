@@ -1,0 +1,197 @@
+/*
+ Theme Name: Grafik Child Theme
+ URI: http://grafik.select-themes.com/
+ Description: A child theme of Grafik
+ Author: Select Themes Author
+ URI: http://demo.select-themes.com
+ Version: 1.0.0
+ Template: grafik
+*/
+@import url("../grafik/style.css");
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.home .qodef-container {
+	display: none;
+}
+
+.page-projects .qodef-vertical-align-containers,
+.page-workshops .qodef-vertical-align-containers,
+.page-products .qodef-vertical-align-containers,
+.single-portfolio-item .qodef-vertical-align-containers {
+	border-bottom: 2.5px solid #7e7e7e;
+}
+.page-projects .qodef-portfolio-item,
+.page-workshops .qodef-portfolio-item,
+.page-products .qodef-portfolio-item {
+	margin-right: auto;
+	margin-left: auto;
+}
+.qodef-portfolio-single-holder .qodef-portfolio-title {
+	margin-bottom: 30px;
+}
+.qodef-title .qodef-title-holder h1 {
+	letter-spacing: normal;
+}
+h2 {
+	color: #7e7e7e !important;
+	box-sizing: border-box;
+}
+.qodef-portfolio-single-holder .qodef-portfolio-title h2 {
+	font-size: 2.5rem;
+	font-weight: 100;
+	font-family: Ubuntu;
+	position: relative;
+	display: inline-block;
+	padding: 10px;
+}
+.qodef-portfolio-single-holder .qodef-portfolio-horizontal-holder {
+	margin-bottom: 20px;
+}
+.qodef-portfolio-single-holder .qodef-portfolio-horizontal-holder .qodef-portfolio-info-holder {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.single-portfolio-item .qodef-content {
+	margin-top: 0 !important;
+}
+#portfolio-slider img {
+  	width: auto;
+  	overflow: hidden;
+}
+@media (orientation: landscape) {
+	#portfolio-slider img {
+		max-height: 450px;
+	}
+}
+@media (orientation: landscape) and (max-width: 1024px) {
+	#portfolio-slider img {
+		max-height: 330px;
+	}
+}
+@media (orientation: potrait) and (max-width: 600px) {
+	#portfolio-slider img {
+		max-height: 280px;
+	}
+}
+#portfolio-slider .owl-nav span {
+  	color: rgb(70, 70, 70);
+  	background-color: rgba(128, 128, 128, 0.2);
+  	border-radius: 50%;
+}
+#portfolio-slider .owl-nav .owl-next {
+	right:35px;
+	max-height: 58px;
+	max-width: 58px;
+}
+#portfolio-slider .owl-nav .owl-prev {
+	left: 35px;
+	max-height: 58px;
+	max-width: 58px;
+}
+.arrow_right:before {
+  	content: "\35";
+}
+.arrow_left:before {
+  	content: "\34";
+}
+.single-portfolio-item h2:before, .single-portfolio-item h2:after {
+    	position: absolute;
+	content: ' ';
+    	width: 20px;
+	height: 20px;
+    	border-color: #7e7e7e;
+    	border-style: solid;
+}
+.single-portfolio-item h2:before {
+	top:0;
+	left:0;
+	border-width: 2.5px 0 0 2.5px;
+}
+.single-portfolio-item h2:after {
+	bottom:0;
+	right:0;
+	border-width: 0 2.5px 2.5px 0;
+}
+.single-portfolio-item .qodef-portfolio-content {
+	position: relative;
+	padding-top: 10px;
+}
+.single-portfolio-item .qodef-portfolio-content:before {
+	position: absolute;
+	content: ' ';
+	width: 25%;
+	height: 10px;
+	border-color:  #ffd633;
+	border-style: solid;
+	top: 0;
+	right: 0;
+	border-width: 10px 0 0 0;
+}
+.page-get-to-know-us h1, h2 {
+	color: #7e7e7e;
+	font-size: 2rem;
+	margin-top: 10px;
+	font-weight: 200;
+}
+@media only screen and (min-width:950px) {
+	.page-get-to-know-us #team .wpb_column {
+		margin: 0;
+		width: 50%;
+	}	
+	.page-get-to-know-us #team .qodef-team-image {
+		float: left;
+		width: 50%;
+	}	
+	.page-get-to-know-us #team .qodef-team-name,
+	.page-get-to-know-us #team .q_team_position {
+		float: right;
+		width: 45%;
+	}
+}
+.page-get-to-know-us #team-2 .qodef-team-image {
+	float: left;
+	width: 50%;
+}
+.page-get-to-know-us #team-2 .qodef-team-name,
+.page-get-to-know-us #team-2 .q_team_position {
+	float: right;
+	width: 45%;
+}
+.page-get-to-know-us #team .qodef-team-description p {
+	text-align: justify;
+	text-justify: inter-word;
+}
+#studioemergence-services h3 {
+	font-size: 1rem;
+	font-weight: 200;
+	letter-spacing: normal;
+	margin-top: 10px;
+	color: #7e7e7e;
+}
+#studioemergence-services p {
+	font-size: 14px;
+	margin-top: 5px;
+}
+.qodef-vertical-align-containers .qodef-position-center:before, .qodef-vertical-align-containers .qodef-position-left:before, .qodef-vertical-align-containers .qodef-position-right:before {
+	display: none;
+}
+.qodef-mobile-header .qodef-mobile-logo-wrapper img {
+	margin-left: 15px;
+}
+#sb_instagram {
+	padding-bottom: 0 !important;
+}
+#sbi_load {
+	padding-top: 0 !important;
+}
+.page-workshops .qodef-container-inner.clearfix,
+.page-products .qodef-container-inner.clearfix {
+	padding-top: 0px;
+}
