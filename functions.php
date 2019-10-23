@@ -2,12 +2,15 @@
 
 /*** Child Theme Function  ***/
 
-function grafik_qodef_child_theme_enqueue_scripts() {
-	wp_register_style( 'childstyle', get_stylesheet_directory_uri() . '/style.css'  );
-	wp_enqueue_style( 'childstyle' );
-	wp_enqueue_script('childscript', get_stylesheet_directory_uri() . '/assets/js/theme.js', array('jquery'));
+if ( ! function_exists( 'grafik_qode_child_theme_enqueue_scripts' ) ) {
+	function grafik_qode_child_theme_enqueue_scripts() {
+		$parent_style = 'grafik-default-style';
+
+		wp_enqueue_style( 'grafik-child-style', get_stylesheet_directory_uri() . '/style.css', array( $parent_style ) );
+	}
+
+	add_action( 'wp_enqueue_scripts', 'grafik_qode_child_theme_enqueue_scripts' );
 }
-add_action('wp_enqueue_scripts', 'grafik_qodef_child_theme_enqueue_scripts', 100);
 
 //Page Slug Body Class
 function add_slug_body_class( $classes ) {
