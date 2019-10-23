@@ -1,12 +1,11 @@
 /*
- Theme Name: Grafik Child Theme
- URI: http://grafik.select-themes.com/
- Description: A child theme of Grafik
- Author: Select Themes Author
- URI: http://demo.select-themes.com
- Version: 1.0.0
- Template: grafik
- GitHub Theme URI: akshatkedia/grafik-child
+ * Theme Name: Grafik Child Theme
+ * Theme URI: http://grafik.select-themes.com/
+ * Description: A child theme of Grafik
+ * Author: Select Themes Author
+ * Template: grafik
+ * Template Version: 1.0.0
+ * GitHub Theme URI: https://github.com/akshatkedia/grafik-child
 */
 @import url("../grafik/style.css");
 
