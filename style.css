@@ -188,3 +188,6 @@ h2 {
 .page-products .qodef-container-inner.clearfix {
   padding-top: 0px;
 }
+.qodef-portfolio-list-holder {
+  text-align: left;
+}
