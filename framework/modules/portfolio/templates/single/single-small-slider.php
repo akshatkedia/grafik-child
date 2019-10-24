@@ -5,14 +5,11 @@
     <div class="qodef-portfolio-info-holder">
         <?php
 
-        //get portfolio date section
-        //grafik_qodef_portfolio_get_info_part('date');
-
         //get portfolio tags section
-        grafik_qodef_portfolio_get_info_part('tags');
+        grafik_qode_portfolio_get_info_part('tags');
 
         //get portfolio custom fields section
-        grafik_qodef_portfolio_get_info_part('custom-fields');
+        grafik_qode_portfolio_get_info_part('custom-fields');
 
         ?>
     </div>
@@ -39,7 +36,7 @@
 			<div class="qodef-portfolio-info-holder">
 				<?php
 				//get portfolio content section
-				grafik_qodef_portfolio_get_info_part('content');
+				grafik_qode_portfolio_get_info_part('content');
 				?>
 			</div>
 		</div>
