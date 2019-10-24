@@ -1,6 +1,19 @@
 <div class="qodef-portfolio-title">
 	<h2><?php the_title(); ?></h2>
 </div>
+<div class="qodef-portfolio-horizontal-holder">
+    <div class="qodef-portfolio-info-holder">
+        <?php
+
+        //get portfolio tags section
+        grafik_qode_portfolio_get_info_part('tags');
+
+        //get portfolio custom fields section
+        grafik_qode_portfolio_get_info_part('custom-fields');
+
+        ?>
+    </div>
+</div>
 <div class="qodef-two-columns-66-33 clearfix">
 	<div class="qodef-column1">
 		<div class="qodef-column-inner">
@@ -24,18 +37,6 @@
 				<?php
 				//get portfolio content section
 				grafik_qode_portfolio_get_info_part('content');
-
-				//get portfolio date section
-				grafik_qode_portfolio_get_info_part('date');
-
-				//get portfolio tags section
-				grafik_qode_portfolio_get_info_part('tags');
-
-				//get portfolio custom fields section
-				grafik_qode_portfolio_get_info_part('custom-fields');
-
-				//get portfolio share section
-				grafik_qode_portfolio_get_info_part('social');
 				?>
 			</div>
 		</div>
