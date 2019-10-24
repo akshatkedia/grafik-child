@@ -1,6 +1,6 @@
 <div class="qodef-portfolio-single-media">
 <?php if($lightbox) : ?>
-    <a title="<?php echo esc_attr($video_title); ?>" href="<?php echo esc_url('http://www.youtube.com/watch?v='.$media['video_id']); ?>" data-rel="prettyPhoto[single_pretty_photo]" class="qodef-portfolio-video-lightbox">
+    <a title="<?php echo esc_attr($video_title); ?>" href="<?php echo esc_url('https://www.youtube.com/watch?v='.$media['video_id']); ?>" data-rel="prettyPhoto[single_pretty_photo]" class="qodef-portfolio-video-lightbox">
         <div class="qodef-portfolio-overlay">
             <i class="qodef-portfolio-play-icon fa fa-play"></i>
         </div>
