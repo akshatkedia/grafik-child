@@ -18,13 +18,13 @@
 	<div class="qodef-column1">
 		<div class="qodef-column-inner">
 			<?php
-			$media = grafik_qodef_get_portfolio_single_media();
+			$media = grafik_qode_get_portfolio_single_media();
 
 			if(is_array($media) && count($media)) : ?>
-				<div id="portfolio-slider" class="qodef-portfolio-media qodef-owl-slider qodef-portfolio-small-slider">
+				<div class="qodef-portfolio-media qodef-owl-slider">
 					<?php foreach($media as $single_media) : ?>
 
-							<?php grafik_qodef_portfolio_get_media_html($single_media); ?>
+							<?php grafik_qode_portfolio_get_media_html($single_media); ?>
 
 					<?php endforeach; ?>
 				</div>
